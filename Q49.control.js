@@ -7,7 +7,7 @@ host.setShouldFailOnDeprecatedUse(true);
 host.defineController("Alesis", "Q49", "1.0", "5cbe50c5-de49-4c4e-bdd5-8f63ef05227e", "inerba");
 
 host.defineMidiPorts(1, 0);
-host.addDeviceNameBasedDiscoveryPair(["Q49"], ["Q49"]);
+//host.addDeviceNameBasedDiscoveryPair(["Q49"], ["Q49"]);
 
 var VOLUME_CC = 7;
 var PAN_CC = 10;
